@@ -54,6 +54,10 @@ public enum eHandStrength {
 		public String toString() {
 			return "High Card";
 		}
+	},	AcesAndEights(65, "isAcesAndEights") {
+		public String toString() {
+			return "AcesAndEights";
+		}
 	};
 
 	private eHandStrength(final int handstrength, final String EvalMethod) {
