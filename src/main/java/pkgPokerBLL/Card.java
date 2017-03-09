@@ -28,6 +28,7 @@ public class Card implements Comparable {
 
 	}
 	
+
 	public static Comparator<Card> CardRank = new Comparator<Card>() {
 
 		public int compare(Card c1, Card c2) {
@@ -39,6 +40,7 @@ public class Card implements Comparable {
 		   return Cno2 - Cno1;
 
 	   }};
-
+	   
 
 }
+

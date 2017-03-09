@@ -2,8 +2,6 @@ package pkgPokerEnum;
 
 public enum eHandStrength {
 
-	//TODO: Add "AcesAndEights" between Flush and FullHouse
-	
 	RoyalFlush(100, "isHandRoyalFlush") {
 		public String toString() {
 			return "Royal Flush";
@@ -22,6 +20,11 @@ public enum eHandStrength {
 	FullHouse(70, "isHandFullHouse") {
 		public String toString() {
 			return "Full House";
+		}
+	},
+	AcesAndEights(70, "isAcesAndEights") {
+		public String toString() {
+			return "AcesAndEights";
 		}
 	},
 	Flush(60, "isHandFlush") {
@@ -53,10 +56,6 @@ public enum eHandStrength {
 	HighCard(10, "isHandHighCard") {
 		public String toString() {
 			return "High Card";
-		}
-	},	AcesAndEights(65, "isAcesAndEights") {
-		public String toString() {
-			return "AcesAndEights";
 		}
 	};
 
